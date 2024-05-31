@@ -3,3 +3,6 @@
 SELECT POW(ABS(X),2)
 FROM Book;
 
+-- returns the student's first name in all caps with no leading or trailing spaces
+SELECT TRIM(UPPER(FirstName))
+FROM Student;
