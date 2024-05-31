@@ -14,3 +14,7 @@ FROM ClassSchedule;
 -- returns the square root of column X, rounded to the 3 decimal points.
 SELECT ROUND(SQRT(X), 3)
 FROM Book;
+
+-- returns the student's first name with all instances of Mia replaced by Pat.
+SELECT REPLACE(FirstName, 'Mia', 'Pat')
+FROM Student;
